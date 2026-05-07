@@ -1,0 +1,258 @@
+{
+    "en": {
+        "hero": {
+            "name": "S. Paul Herrera",
+            "title": "Software Developer",
+            "items": [
+                {
+                    "icon": "faBirthdayCake",
+                    "text": "Freelancing since in 2019"
+                },
+                {
+                    "icon": "faPhone",
+                    "text": "+593 099 551 9509"
+                },
+                {
+                    "icon": "faEnvelope",
+                    "text": "santihm2006@gmail.com"
+                },
+                {
+                    "icon": "faGlobeAmericas",
+                    "text": "Residing at Ecuador."
+                }
+            ]
+        },
+        "resume": {
+            "cvUrl": "/CV-eng.pdf",
+            "cvText": "Download CV",
+            "sections": [
+                {
+                    "title": null,
+                    "paragraphs": [
+                        [
+                            {
+                                "text": "Hello. My name is Paul Herrera, a Software Developer since 2019, and a resourceful high-quality builder since the age of 13.",
+                                "bold": false
+                            }
+                        ]
+                    ]
+                },
+                {
+                    "title": "Seeking for professional internship positions that prioritize execution",
+                    "paragraphs": [
+                        [
+                            {
+                                "text": "Your company and I will collaborate through a hard-working and execution-focused relationship. As a self-taught developer with freelancing background, I'm building professional technical experience beyond academic theory while delivering practical results based on years of real-world development.",
+                                "bold": false
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        "skills": [
+            {
+                "category": "Programming languages",
+                "items": [
+                    {
+                        "name": "JavaScript & TypeScript"
+                    },
+                    {
+                        "name": "Native HTML/CSS/JS"
+                    },
+                    {
+                        "name": "Python"
+                    },
+                    {
+                        "name": "SQL (Postgres)"
+                    },
+                    {
+                        "name": "NoSQL (MongoDB)"
+                    }
+                ]
+            },
+            {
+                "category": "Preferred Full Stack",
+                "items": [
+                    {
+                        "name": "Typescript, JavaScript, HTML/JS/CSS"
+                    },
+                    {
+                        "name": "React & Webpack, NextJs"
+                    },
+                    {
+                        "name": "Docker, Redis, PostgreSQL"
+                    },
+                    {
+                        "name": "Nginx, Cloudflared Tunnel, Cloudflare R2"
+                    }
+                ]
+            },
+            {
+                "category": "Other skills",
+                "items": [
+                    {
+                        "name": "Adobe: Lr, Ps, Pr"
+                    },
+                    {
+                        "name": "FB Ads Manager, FB Business Manager"
+                    },
+                    {
+                        "name": "The ability to dive into a problem and figure out how to solve it"
+                    }
+                ]
+            }
+        ],
+        "portfolio": {
+            "title": "Portfolio",
+            "subtitle": "What I've been working on lately"
+        },
+        "testimonials": {
+            "title": "Testimonials",
+            "subtitle": "What people say about working with me",
+            "items": [
+                {
+                    "name": "Ricardo Ruiz",
+                    "role": "Tech Manager",
+                    "company": "Liceo los Delfines",
+                    "image": "/ricardo1287129713871.jpg",
+                    "text": "The expertise demonstrated by Santiago Paul in our school led us to open a volunteer internship program for each year due to his youth energy in providing enterprise solutions.",
+                    "rating": 5
+                },
+                {
+                    "name": "Jose Javier",
+                    "role": "CEO",
+                    "company": "Biomedicina Veterinaria Las Lomas",
+                    "image": "/292245330_454609256670518_3098469840549873695_n.jpg",
+                    "text": "Met him at 17 years of age, rapidly got my attention to continue insourcing his services of marketing, got more real-life experience than any local marketing undergraduate.",
+                    "rating": 5
+                },
+                {
+                    "name": "Wendy Maribel",
+                    "role": "CEO",
+                    "company": "Guarderia Danny Kids",
+                    "image": "/432889307_122170497044030438_6121249081102454672_n.jpg",
+                    "text": "Super kind and young hard hustler, handled our marketing with results, fast and cheap replies, confident and easy to work with.",
+                    "rating": 5
+                }
+            ]
+        },
+        "timeline": {
+            "title": "Formal Education & Work experience",
+            "subtitle": "My journey through learning and professional growth",
+            "items": [
+                {
+                    "src": null,
+                    "title": "Self Taught software development",
+                    "subtitle": "at Discord servers",
+                    "start_year": 2019,
+                    "start_month": 5,
+                    "end_year": 2023,
+                    "end_month": 2,
+                    "description": "My beginnings.",
+                    "type": "informal-education",
+                    "keytakes": [
+                        "Started in 2019, at 13 years old",
+                        "Mastered english for docs understanding",
+                        "Learnt to code with NodeJs & JavaScript later TS as a hobby for automation production within our active users in the community",
+                        "Expanded communities via automations & engagement from 4 to 6 figures in recurring users",
+                        "Inactive mid-2022 post pandemic while reconnecting socially in high school, stepped out at 2023 beginnings, choosing to not take any major role during that inactivity period, left sustainable systems for our new developers"
+                    ]
+                },
+                {
+                    "src": null,
+                    "title": "Bachillerato Técnico Informática",
+                    "subtitle": "at Liceo Los Delfines",
+                    "start_year": 2020,
+                    "start_month": 1,
+                    "end_year": 2024,
+                    "end_month": 3,
+                    "description": "From introvert developer to social problem-solver",
+                    "type": "formal-education",
+                    "keytakes": [
+                        "'Founders' scholarship with a % discounted from the price",
+                        "Detected system flaws within the academic platform and worked along with the staff to solve them as student",
+                        "Assisted multiple teachers with technical troubleshooting during class sessions; reconfigured IPv4 dns ports to resolve unstable crossport interference.",
+                        "Assisted with the early production of podcasts and audio production for the company",
+                        "Later got an internship as the first student ever in the company"
+                    ]
+                },
+                {
+                    "src": null,
+                    "title": "Internship",
+                    "subtitle": "at Liceo Los Delfines",
+                    "start_year": 2023,
+                    "start_month": 2,
+                    "end_year": 2023,
+                    "end_month": 4,
+                    "description": "Worked at my high school.",
+                    "type": "formal-job",
+                    "keytakes": [
+                        "Made lot of cibersecurity enhancements",
+                        "Veyon service implementation for security surveillance",
+                        "Windows Server 2022 implementation for user data management",
+                        "Miscellaneous work such as; cleaning digital projectors, connecting cameras for the new building within the campus, etc."
+                    ]
+                },
+                {
+                    "src": null,
+                    "title": "Built a Marketing Agency",
+                    "subtitle": "for Veterinarians and Dentists",
+                    "start_year": 2024,
+                    "start_month": 0,
+                    "end_year": 2024,
+                    "end_month": 4,
+                    "description": "Made mistakes, without formal education nor experience delivered great results, strengthen my purpose.",
+                    "type": "self-made-project",
+                    "keytakes": [
+                        "Learnt everything about Meta Business Manager; pixel for ecommerce, ad accounts; quick look into Meta Developers API to planify a solution in my latest related project",
+                        "Managed Meta Ads for Instagram and Facebook",
+                        "Automated chats like in my early experience with Discord communities, using GoHighLevel with workflows automation to convert leads",
+                        "Tried hundreds tools from Botpress, Zapier/Make, Calbell and switched from Marketing outsourcing to Chat Automation",
+                        "Later my SaaS project is based in fully strict but really flexible Workflows"
+                    ]
+                },
+                {
+                    "src": null,
+                    "title": "Enrolled in university",
+                    "subtitle": "at ESPOL (Ecuador #1 QS 2025)",
+                    "start_year": 2024,
+                    "start_month": 0,
+                    "end_year": 2024,
+                    "end_month": 4,
+                    "description": "Prestigious university in this country.",
+                    "type": "formal-education",
+                    "keytakes": [
+                        "Enrolled for the pre-university preparation program, with a 1:10 approval rate (5 out of 50 per engineering course, most people repeat before passing)",
+                        "Created an Anki Deck of mathematics from scratch zero within those months and taught struggling friends with spaced repetition logic",
+                        "Passed with a 9.3/10 grade over a 6/10 minimum requirement at the first attempt"
+                    ]
+                },
+                {
+                    "src": "http://espol.edu.ec/",
+                    "title": "Eng. Data Science & Machine Learning",
+                    "subtitle": "at ESPOL (Ecuador #1 QS 2025)",
+                    "start_year": 2025,
+                    "start_month": 2,
+                    "end_year": 2029,
+                    "end_month": 2,
+                    "description": "Prestigious university in this country.",
+                    "type": "formal-education",
+                    "keytakes": [
+                        "Passionated in coding, and theorical courses",
+                        "Using time-saving tools like Anki to practice less with good grades to focus on my side projects",
+                        "Gathering people with good sales and social skills, software masters in the courses languages, networking with teachers. Planning into outsourcing our whitelabel SaaS CRM for them to build agencies as students like me winning real experience before graduation."
+                    ]
+                }
+            ]
+        },
+        "timelineTagTypes": {
+            "formal-education": "Formal education",
+            "formal-job": "Formal job experience",
+            "informal-education": "Informal education",
+            "informal-service": "Informal service outsourcing",
+            "self-made-project": "Projects"
+        },
+        "keyTakeawaysTitle": "Key takeaways"
+    }
+}

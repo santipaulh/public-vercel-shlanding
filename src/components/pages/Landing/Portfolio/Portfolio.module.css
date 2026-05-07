@@ -1,0 +1,165 @@
+@reference "C:\Users\santh\OneDrive\Desktop\Propositos\PersonalBranding\sh-landingpage\src\styles\globals.css";
+
+:root {
+    --homepage-firstsection-height: 416px;
+    --homepage-color-1: #75243b;
+    --homepage-color-2: #75243b;
+    --homepage-color-rgb-1: 70, 21, 35;
+    --homepage-bgcolor-1: #f8f8f8;
+}
+
+.homepage {
+    background-color: var(--homepage-bgcolor-1);
+    @apply flex flex-col min-h-screen overflow-x-hidden
+}
+
+.shadow-addon {
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.30);
+}
+
+.button-memo {
+    background-color: var(--homepage-color-2);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.30);
+    border-radius: var(--rules-page-dashboard-roounded_border_corners-1);
+    @apply py-3 px-6 flex flex-row justify-center items-center
+}
+
+.text-title-1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
+}
+
+.text-title-2 {
+    color: #616161;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
+}
+
+.text-text-1 {
+    color: white;
+}
+
+.text-text-2 {
+    color: #616161;
+}
+
+.text-text-3 {
+    color: #fffffff1;
+}
+
+/* 
+
+    HERO
+
+*/
+.background-hero-foto {
+    display: block;
+    width: 100%;
+    height: 420px;
+    background: url(/1726776485107.jpg) no-repeat;
+    background-size: cover;
+    background-position: top top;
+    background-attachment: scroll;
+    z-index: 1;
+}
+
+.background-hero-backdrop {
+    position: absolute;
+    width: 100%;
+    height: 440px;
+    z-index: 2;
+    border-bottom: 220px solid var(--homepage-color-1);
+    backdrop-filter: blur(3px)
+}
+
+@media (max-width: 1024px) {
+    .background-hero-foto {
+        height: 340px;
+    }
+    .background-hero-backdrop {
+        height: 360px;
+        border-bottom: 160px solid var(--homepage-color-1);
+    }
+    .sections-container {
+        margin-top: -180px;
+    }
+}
+
+@media (max-width: 640px) {
+    .background-hero-foto {
+        height: 280px;
+    }
+    .background-hero-backdrop {
+        height: 300px;
+        border-bottom: 120px solid var(--homepage-color-1);
+    }
+    .sections-container {
+        margin-top: -120px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .profile {
+        border-width: 260px 0 0 100px;
+    }
+}
+
+
+/* 
+
+    CONTAINER DE SECTIONS
+
+*/
+
+.sections-container {
+    /* transform: translateY(-210px) scale(1); */
+    margin-top: -227px;
+    z-index: 2;
+    @apply flex flex-col items-center justify-between w-screen px-4 md:px-6 lg:px-8
+}
+
+.card {
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.30);
+    border-radius: var(--rules-page-dashboard-roounded_border_corners-1);
+    background-color: #ffffff;
+}
+
+/* 
+
+    SECTION 1 / PROFILE CARD
+
+*/
+
+.profile {
+    border-style: solid;
+    border-width: var(--homepage-firstsection-height) 0 0 125px;
+    background-color: transparent;
+    border-color: rgba(223, 50, 50, 0) transparent transparent var(--homepage-color-1)
+}
+
+
+
+.section_portfolio-card_container {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.30);
+  border-radius: var(--rules-page-dashboard-roounded_border_corners-1);
+  background-color: var(--homepage-color-2);
+  @apply p-6 flex flex-col min-h-[260px] w-full max-w-[500px] relative shadow-md items-center justify-center overflow-hidden;
+  
+  &:hover {
+    transform: scale(1.01);
+  }
+}
+
+.section_portfolio-card_container-background_img {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* 🔥 CLAVE */
+  object-position: center;
+
+  z-index: 0;
+  opacity: 0.9;
+  &:hover {
+    @apply opacity-20 cursor-pointer;
+  }
+}
