@@ -7,7 +7,7 @@
 
 | Type | Project name | Purpose |
 |---|---|---|
-| SaaS | 🐶 [Saya CRM](https://github.com/santiagopaulh/saya/) | $${\color{red} { \text{IN-DEVELOPMENT} }}$$ - A revamp of Botketing for local South American businesses; automation and centralization of worksapce. |
+| SaaS | 🔨 [FlowSuite](https://github.com/santiagopaulh/saya/) | $${\color{red} { \text{IN-DEVELOPMENT} }}$$ - A revamp of Botketing for local South American businesses; automation and centralization of worksapce. |
 | SaaS | 📕 [Botketing](https://santipaul.com/en/portfolio/botketing-crm) | Workflow Automation CRM for my private local clients, as commercial applications became more costful and unflexible. |
 | Services | 📈 [Marketing & AI Agency freelancer](https://santipaul.com/en/portfolio/agencia-marketing-2024) |  Leveraged my client's automation  through the 2024 Ecuadorian energy blackouts. |
 | Services | 📘 [Discord freelancer](https://santipaul.com/en/portfolio/early-days-discord-communities) | Worked for many influencers in the hispanic community at a young age; Spreen, Aquino, Suwie. |
