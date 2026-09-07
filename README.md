@@ -28,7 +28,7 @@
 
 <details>
 <summary>P.S.</summary>
-You can contact me through my portfolio. I'm open to new opportunities to continue growing my portfolio and above all deliver you solid results.
+I'm closed for job opportunities. Building whitelabel & enterprise systems.
 </details>
 
 
